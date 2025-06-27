@@ -1,0 +1,22 @@
+@import '../../../styles/variables';
+
+.answer {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: $bg-primary;
+}
+
+.selected, .hoverable:hover {
+    background-color: $quiz-hover;
+    color: $text-light;
+}
+
+.correct {
+    background-color: $quiz-correct;
+    color: $text-light;
+}
+
+.incorrect {
+    background-color: $quiz-incorrect;
+    color: $text-primary;
+}

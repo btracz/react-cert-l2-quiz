@@ -1,0 +1,27 @@
+@import '../../../styles/variables';
+
+.score {
+    margin: 1rem auto;
+}
+
+.pass {
+    background-color: $quiz-correct;
+    color: $text-light;
+}
+
+.fail {
+    background-color: $quiz-incorrect;
+    color: $text-primary;
+}
+
+.intermediate {
+    background-color: $warning-light;
+    color: $text-primary;
+}
+
+.restart {
+    margin-top: 2rem;
+    padding: 1rem 10rem;
+    background-color: $dark-gray;
+    color: $text-light;
+}

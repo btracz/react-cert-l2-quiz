@@ -1,0 +1,57 @@
+// Color Variables
+// Primary Colors
+$primary-color: #626970;
+$primary-light: #f9f9f9;
+$primary-dark: #4a5158;
+
+// Status Colors
+$success-color: #0e8f0e;
+$success-light: #4caf50;
+$success-dark: #0a6b0a;
+
+$error-color: #FF1212;
+$error-light: #ff4444;
+$error-dark: #cc0e0e;
+
+$warning-color: #ff9800;
+$warning-light: #ffb74d;
+$warning-dark: #f57c00;
+
+$info-color: #2196f3;
+$info-light: #64b5f6;
+$info-dark: #0c3864;
+
+// Neutral Colors
+$white: #ffffff;
+$light-gray: #f9f9f9;
+$gray: #9e9e9e;
+$dark-gray: #626970;
+$black: #000000;
+
+// Background Colors
+$bg-primary: $light-gray;
+$bg-secondary: $white;
+$bg-dark: $dark-gray;
+
+// Text Colors
+$text-primary: $black;
+$text-secondary: $dark-gray;
+$text-light: $white;
+$text-muted: $gray;
+
+// Border Colors
+$border-light: #e0e0e0;
+$border-medium: #bdbdbd;
+$border-dark: $dark-gray;
+
+// Interactive States
+$hover-bg: $dark-gray;
+$hover-text: $light-gray;
+$focus-color: $info-color;
+$active-bg: $primary-color;
+
+// Quiz Specific Colors
+$quiz-correct: $success-color;
+$quiz-incorrect: $error-color;
+$quiz-selected: $primary-color;
+$quiz-hover: $hover-bg;
